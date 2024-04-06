@@ -90,6 +90,15 @@
     scroll-behavior: smooth;
   }
 }
+/* ALTERAÇÕES FEITAS POR MIM - INICIO */
+
+@font-face {
+  font-family: letraAssinatura;
+  src: url(../fonts/campana_script/CampanaScript_PERSONAL_USE_ONLY.otf);
+}
+
+/* ALTERAÇÕES FEITAS POR MIM - FIM */
+
 
 body {
   margin: 0;
@@ -3769,10 +3778,12 @@ textarea.form-control-lg {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
-  font-size: var(--bs-navbar-brand-font-size);
+  /* font-size: var(--bs-navbar-brand-font-size); */
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
+  font-family: letraAssinatura;
+  font-size: 50px;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
