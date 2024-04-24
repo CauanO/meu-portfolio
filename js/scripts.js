@@ -1,7 +1,14 @@
-/*!
-* Start Bootstrap - Modern Business v5.0.7 (https://startbootstrap.com/template-overviews/modern-business)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-modern-business/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+function ocutar() {
+    var ids = ['projeto-1', 'projeto-2', 'projeto-3', 'projeto-4', 'projeto-5', 'projeto-6', 'projeto-7', 'projeto-8', 'projeto-9', 'projeto-10', 'projeto-11', 'projeto-12', 'projeto-13', 'projeto-14', 'projeto-15']
+    ids.forEach(function(id){
+        document.getElementById(id).style.display = 'none'
+    })
+}
+
+function mostrarMais() {
+    var ids = ['projeto-1', 'projeto-2', 'projeto-3', 'projeto-4', 'projeto-5', 'projeto-6', 'projeto-7', 'projeto-8', 'projeto-9', 'projeto-10', 'projeto-11', 'projeto-12', 'projeto-13', 'projeto-14', 'projeto-15', 'vermais']
+    ids.forEach(function(id){
+        document.getElementById(id).style.display = 'flex'
+        document.getElementById('vermais').style.display = 'none'
+    })
+}
